@@ -22,8 +22,6 @@ Variables
  z
  b(pueblo);
  
-Scalar M /100/;
-
 Binary Variables
     b(pueblo)  "Indica si hay una estación en el pueblo";
 
