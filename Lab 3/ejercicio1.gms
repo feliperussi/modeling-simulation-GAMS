@@ -26,7 +26,7 @@ Variables
 * Asegura que la variable sea binaria
 Binary Variables b(i);
 
-* Define los tiempos en los que cada trabajador hace cada trabajo
+* Define el puntaje de la capacidad de cada jugador
 Table t(i, j)
                 Control  Disparo  Rebotes  Defensa
     Jugador1    3        3        1        3
