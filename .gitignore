@@ -1,0 +1,5 @@
+# Ignore all .gsp files
+*.gsp
+*.lst
+*.lxi
+*.log
