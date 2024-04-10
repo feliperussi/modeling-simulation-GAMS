@@ -1,6 +1,15 @@
+*************************************************************************
+***      Lab 3                                                        ***
+***      Ejercicio 4                                                  ***
+***      Felipe Arias Russi - 201914996                               ***
+***      Mario Ruiz - 201920695                                       ***
+*************************************************************************
+
 Sets
    b / Baldosa1*Baldosa20 /
    t / Tubo1*Tubo7 /;
+
+* Esta tabla muestra que tubo pasa por cual baldosa
 
 Table conexion(b,t) 
              Tubo1  Tubo2  Tubo3  Tubo4  Tubo5  Tubo6  Tubo7
@@ -38,6 +47,8 @@ Equations
    coverConstraint(t) ;
 
 objective.. sum(b, x(b)) =e= z;
+
+* Esto minimiza el numero de baldosas que se deben revisar para encontrar todos los tubos
 
 coverConstraint(t).. sum(b$(conexion(b,t) = 1), x(b)) =g= 1;
 
